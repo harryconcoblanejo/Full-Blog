@@ -1,0 +1,31 @@
+.principalLoading {
+    display:inline-block;
+    position:relative;
+    margin: 20px auto;
+    border: 16px solid #a3d4f0; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+/* 
+  .sideLoading{
+    border: 16px solid #e66161; 
+    border-top: 16px solid #db4d34; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } */

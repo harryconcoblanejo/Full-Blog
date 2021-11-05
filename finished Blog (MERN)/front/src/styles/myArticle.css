@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0
+}
+
+.myArticle{
+    display:flex;
+    width: 40%;
+    margin:30px;
+    padding:10px;
+    list-style-type: none;
+     /* border: solid rgb(168, 211, 174) 3px;  */
+   /* background-color:rgb(95, 90, 90); 
+     opacity:.3; */
+   
+    
+ 
+}
+.postTitle{
+    text-decoration: none;
+    color:rgb(3, 3, 3);
+     font-family: 'Krona One', sans-serif;
+    
+}
+.allPostsTitle{
+    font-size: 30px;
+}
+.allPostsDescription{
+    font-size: 20px;
+    color:rgb(95, 95, 95);
+   
+}
+

@@ -1,0 +1,24 @@
+.footerContainer {
+  position: relative;
+  width: 60%;
+  /* background-color:rgb(31, 30, 29);
+    opacity:.8;  */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  bottom: -50px;
+}
+.footerLogo {
+  font-size: 20px;
+}
+.footerText {
+  font-size: 20px;
+  padding: 5px;
+}
+.footerLink {
+  text-decoration: none;
+}
+.footerLi {
+  list-style: none;
+}

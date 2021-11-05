@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0
+}
+#root{
+    height: 100%;
+}
+.homeTitle{
+    color:rgb(2, 2, 2);
+    font-size: 50px;
+ text-align: center;
+}
+.homeContainer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin:10px 10px;
+    flex-direction:column;
+    padding: 10px;
+    
+   
+}   
+  
+   
+  
+
+
+
+.line{
+    background-color:rgb(189, 189, 189);
+    width:90%;
+    height:2px;
+    margin:20px auto;
+}

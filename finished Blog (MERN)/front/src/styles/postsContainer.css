@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0
+}
+
+.postsContainer{
+   /* display:flex;  */
+   /* box-sizing:80%; */
+ 
+    padding: 10px;
+    margin: 20px;
+  /* background-color:green; */
+  height:100%
+  
+  
+
+}
+.allPostsLink,.newPostLink{
+    text-decoration: none;
+}
+
+.getAllPostsButton, .newPostButton{
+    /* border:solid black 2px; */
+    background-color: rgba(200, 153, 21, 0.966);
+    display: flex;
+    height:50px;
+    width: 180px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.getAllPostsButton:hover{
+    cursor:pointer;
+    box-shadow: 2px 2px 5px #999;
+    transition: all .2s;
+    font-size: 30px;
+    width: 190px;
+}
+ .newPostButton:hover{
+    cursor:pointer;
+    box-shadow: 2px 2px 5px rgb(107, 107, 107);
+    transition: all .2s;
+    font-size: 30px;
+    width: 190px; 
+ }
+ .newPostText,.getAllPostsText{
+    margin-top: -3px;
+    font-size: 20px;
+ }
+
+
+
+
+
+.myWelcome{
+    position:relative;
+    top:-60px; 
+    color: rgba(4, 42, 3, 0.787);
+    margin: 10px auto;
+    font-size:60px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.links{
+    display:flex;
+    margin:20px;
+    
+    justify-content:space-between;
+    font-size: 30px;
+    
+}
+.allPostsLink{
+    padding: 10px;
+    margin: 20px;
+    color:rgb(121, 243, 8);
+   
+
+  
+}
+.newPostLink{
+    padding: 10px;
+    margin: 20px;
+    color:rgb(8, 208, 243);
+
+}

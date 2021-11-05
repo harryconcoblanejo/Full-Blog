@@ -1,0 +1,42 @@
+.matchTitles{
+    
+    display: flex;
+    padding:20px;
+   
+    flex-direction: column;
+   
+    
+}
+
+.ulTitlesFound{
+    list-style: none;
+   
+}
+
+
+.messageBox{
+display: flex;
+height: 350px;
+ /* align-items: center; */
+ justify-content: center;
+}
+
+.titlesList{
+    margin:50px 20px
+}
+
+.message{
+    justify-content: space-between;
+    color: red;
+    font-size: 50px;
+    margin:50px;
+   
+}
+.titleFoundontainer{
+      display:inline-block;
+    
+
+}
+.titleFound{
+  
+}

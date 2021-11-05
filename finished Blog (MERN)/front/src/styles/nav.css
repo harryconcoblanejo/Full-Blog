@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0
+}
+
+.navContainer {
+    
+    display: flex;
+    text-decoration: none;
+    background-image: url(../images/back2.jpg);
+    /* background-color: blue; */
+    background-size: cover;
+    background-repeat: no-repeat;
+     width: 100%;
+    height: 350px;
+    top: 0;
+    left: 0;
+ 
+   
+    
+  
+   
+   
+}
+
+
+
+.navContainer.hidden {
+    display: flex;
+    text-decoration: none;
+    background:black;
+    height: 100px;
+     top:  -100px;
+    
+   
+    position: fixed;
+    /* transition: all 1s */
+    
+    
+}
+.navContainer.active {
+    display: flex;
+    text-decoration: none;
+    background:rgba(3, 3, 3, 0.808);
+    height: 90px;
+     top:  0px;
+     /* color:black; */
+    
+   
+    position: fixed;
+    transition: all 1s ;
+   
+    z-index: 100;
+}
+    
+    
+   
+
+
+
+.nav {
+    
+    text-decoration: none;
+    margin: 20px 10px;
+    /* padding: 5px; */
+    color: rgb(241, 240, 241);
+   
+    font-size: 30px;
+   
+    height:40px;
+    border-radius:10px;
+    
+   
+    
+}  
+.nav :hover{
+    color: rgb(56, 37, 2);  
+    transition: all .2s
+} 
+
+.navAnim{
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 5px;
+    color: rgb(172, 172, 172); 
+   
+    font-size: 30px;
+    /* border:solid rgb(255, 255, 255) 3px; */
+    height:40px;
+    border-radius:10px;
+    
+
+ -webkit-animation: text-focus-in 10s  ;
+    animation: text-focus-in 10s ;
+    -moz-animation: text-focus-in 10s ;
+    -ms-animation: text-focus-in 10s ;
+     -o-animation: text-focus-in 10s  ;
+    
+     
+}
+.navAnim:hover{
+    color: rgb(255, 255, 255);  
+    transition: all .4s
+}
+
+@keyframes text-focus-in{
+    0% {opacity:0;}
+    100% {opacity:1;}
+    
+    }
+    
+    @-moz-keyframes text-focus-in{
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes text-focus-in{
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes text-focus-in{
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes text-focus-in{
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+  
+    
+   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0
+}
+
+.myTitleContainer{
+    /* border: solid black 1px */
+}
+.myTitleLink{
+text-decoration: none;
+}
+.myTitle{
+    display:flex;
+    text-align: center;
+    color:rgb(2, 65, 117);
+    font-size: 50px;
+}
+.getMyPosts{  
+    display:flex;
+    /* border: solid black 1px; */
+    justify-content:center;
+
+   
+margin:20px auto;
+padding:10px;
+/* border: solid rgb(3, 246, 56) 3px; */
+background-color: rgba(2, 163, 50, 0.178);
+border-radius: 10px;
+
+width: 30%;
+
+
+
+    
+    
+}
+.getMyPostsText{
+    display:flex; 
+    /* overflow: scroll; */
+    overflow-y: scroll;
+    height:200px;
+    margin:20px;
+    border:solid black 1px;
+    align-items: center;
+    padding: 10px;
+}
+
+/* .getMyPostsText::-webkit-scrollbar {
+    display: none;
+} */
+.article{
+    display:flex;
+    flex-direction: column;
+    list-style-type: none; 
+    justify-content:center;
+    
+}
+.postData{
+    text-align: center;
+}
+
+.imagesContainer{
+    display:flex;
+    justify-content: space-around;
+    /* border:solid black 1px; */
+
+}
+.buttonsContainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.updateButton{
+    position:relative;
+    right:10px;
+   margin:10px  ;
+
+   
+    /* margin:10px; */
+   background-color:rgb(4, 131, 31) ;
+   border-radius: 5px;
+   height:30px;
+   width: 80px;
+   border:none;
+ 
+}
+.updateButton:hover{
+    cursor: pointer;
+    width: 110px; 
+    height:35px;
+    margin:0px;
+    transition: all .2s
+}
+
+
+.deleteButton{
+    margin:10px  ;
+    
+    /* margin:10px; */
+   background-color:rgb(255, 0, 0) ;
+   border-radius: 5px;
+   height:30px;
+   width: 80px;
+   border:none;
+
+   transition: all .2s
+}
+.deleteButton:hover{
+    cursor: pointer;
+    width: 110px; 
+    height:35px;
+    margin:0px;
+    transition: all .2s
+}
+
+.textButtons{
+    color:white;
+}
